@@ -22,6 +22,7 @@ export default defineConfig({
         ]
       : []),
   ],
+  base: '/TASK-MANAGER/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "client", "src"),
@@ -34,4 +35,5 @@ export default defineConfig({
     outDir: path.resolve(__dirname, "dist/public"),
     emptyOutDir: true,
   },
+  
 });
